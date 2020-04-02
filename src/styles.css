@@ -1,0 +1,111 @@
+html {
+  background: #454545;
+}
+
+.App {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 200;
+  text-align: center;
+  color: #454545;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.button {
+  background-color: white;
+  flex-direction: column;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: 400;
+  margin: 5px;
+  font-size: 1.7em;
+}
+.button:active {
+  opacity: 0.7;
+}
+
+.button input {
+  border: none;
+  border-radius: 15px;
+  line-height: 2em;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 10px;
+}
+
+.issueWrapper .button {
+  height: 180px;
+  font-size: 1.6em;
+}
+
+.issueWrapper .button:nth-child(1) {
+  background-color: #63adf2;
+}
+.issueWrapper .button:nth-child(2) {
+  background-color: #e75a7c;
+}
+.issueWrapper .button:nth-child(3) {
+  background-color: #d6dbd2;
+}
+.issueWrapper .button:nth-child(4) {
+  background-color: #4b8f8c;
+}
+.issueWrapper .button:nth-child(5) {
+  background-color: #5efc8d;
+}
+.issueWrapper .button:nth-child(6) {
+  background-color: #c5979d;
+}
+.issueWrapper .button:nth-child(7) {
+  background-color: #ff9505;
+}
+.issueWrapper .button:nth-child(8) {
+  background-color: #e1b07e;
+}
+.issueWrapper .button:nth-child(9) {
+  background-color: #78e0dc;
+}
+.issueWrapper .button:nth-child(10) {
+  background-color: #cbef43;
+}
+.issueWrapper .button:nth-child(11) {
+  background-color: #d62839;
+}
+.issueWrapper .button:nth-child(12) {
+  background-color: #f6ca83;
+}
+.issueWrapper .button:nth-child(13) {
+  background-color: #519872;
+}
+.issueWrapper .button:nth-child(14) {
+  background-color: #efd780;
+}
+.issueWrapper .button:nth-child(15) {
+  background-color: #d56aa0;
+}
+.issueWrapper .button:nth-child(16) {
+  background-color: #6fd08c;
+}
+.issueWrapper .button:nth-child(17) {
+  background-color: #f46036;
+}
+.issueWrapper .button:nth-child(18) {
+  background-color: #c5d86d;
+}
+.issueWrapper .button:nth-child(19) {
+  background-color: #84a9c0;
+}
+.issueWrapper .button:nth-child(20) {
+  background-color: #a6cfd5;
+}
